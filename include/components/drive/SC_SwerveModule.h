@@ -3,6 +3,7 @@
 
 #include "ctre/phoenix/motorcontrol/can/WPI_TalonFX.h"
 #include "ctre/phoenix/sensors/CANCoder.h"
+
 #include "FRC3484_Lib/components/SC_PID.h"
 #include "FRC3484_Lib/utils/SC_Datatypes.h"
 

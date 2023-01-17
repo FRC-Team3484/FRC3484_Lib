@@ -1,6 +1,7 @@
 #include "FRC3484_Lib/components/drive/SC_SwerveModule.h"
-
+// #include "components/drive/SC_SwerveModule.h"
 #include "FRC3484_Lib/utils/SC_Constants.h"
+#include "frc/smartdashboard/SmartDashboard.h"
 
 using namespace SC;
 using namespace ctre::phoenix::motorcontrol;
