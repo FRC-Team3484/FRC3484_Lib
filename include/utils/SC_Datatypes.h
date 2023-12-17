@@ -61,14 +61,15 @@ namespace SC
 						INTEGRAL_LIMIT };
 
 	typedef struct {double Kp; double Ki; double Kd; double Kf;} SC_PIDConstants;
+
 	typedef struct {
 		SC_PIDConstants PIDc; 
 		units::time::second_t ScanTime;		// Update period of the PID loop
-		SC_Range<double> R_SP;				// Setpoint bounding range
-		SC_Range<double> R_PV;				// PV (sensor input) bounding range
-		SC_Range<double> R_CV;				// CV (output) bounding range
-		SC_Range<double> R_I;				// Integral bounding range
-		SC_Range<double> R_D; 				// Derivative bouding range
+		SC_Range<double> Range_SP;			// Setpoint bounding range
+		SC_Range<double> Range_PV;			// PV (sensor input) bounding range
+		SC_Range<double> Range_CV;			// CV (output) bounding range
+		SC_Range<double> Range_I;			// Integral bounding range
+		SC_Range<double> Range_D; 			// Derivative bouding range
 		double ManRate; 					// Manual mode CV ramp rate
 		SC_PID_AW_MODE AW_Mode = OFF;		// Integral Anti-windup mode (default = OFF)
 	} SC_PIDConfig;

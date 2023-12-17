@@ -14,6 +14,8 @@ namespace SC
 	static const units::angle::radian_t C_REVOLUTION_RADS = 360_deg;
 
 	/* General Constants */
+	#define C_DISABLED_CHANNEL	-1
+
 	#define C_SCAN_TIME         0.020_s // seconds
 	#define C_SCAN_TIME_SEC		C_SCAN_TIME.value()
 

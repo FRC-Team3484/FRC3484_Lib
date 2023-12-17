@@ -9,11 +9,6 @@ namespace SC
     
     //==============================
     // F_Limit Declarations
-    // --------------------
-    //
-    // F_Limit is declared with 1 
-    // overload declaration to allow 
-    // usage of SC_Range datatype.
     //===============================
 
     /**
